@@ -1,0 +1,21 @@
+.table{
+    margin-top: 50px;
+}
+
+.actioncss{
+    
+    list-style: none;
+}
+
+.success{
+    color: green;
+}
+
+.warning{
+    color: rgb(241, 241, 67);
+}
+
+.danger{
+    color: red;
+    cursor: pointer;
+}
