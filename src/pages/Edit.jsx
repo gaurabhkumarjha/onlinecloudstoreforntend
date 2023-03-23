@@ -31,7 +31,7 @@ const Edit = () => {
         e.preventDefault();
         const { legalname, mobilenumber, userid, password, opt, remarks } = inputdata;
 
-        const res = await fetch("/user/edit/" + id, {
+        const res = await fetch("https://onlinecloudstorebackend.onrender.com/user/edit/" + id, {
 
             method: "PUT",
             headers: {
@@ -54,7 +54,7 @@ const Edit = () => {
 
 
         const userGetDetails = async () => {
-            const res = await fetch("/details/" + id, {
+            const res = await fetch("https://onlinecloudstorebackend.onrender.com/details/" + id, {
 
                 method: "GET",
                 headers: {
