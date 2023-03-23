@@ -18,7 +18,7 @@ const Tabel = () => {
     const [pagecount, setpagecount] = useState(0);
 
     const userGetDetails = async () => {
-        const res = await fetch(`/getmydetails?shearchuserdata=${shearchuserdata}&page=${page}`, {
+        const res = await fetch(`https://onlinecloudstorebackend.onrender.com/getmydetails?shearchuserdata=${shearchuserdata}&page=${page}`, {
 
             method: "GET",
             headers: {
@@ -36,7 +36,7 @@ const Tabel = () => {
     const deleteuser = async (id) => {
 
 
-        const res = await fetch("/user/delete/" + id, {
+        const res = await fetch("https://onlinecloudstorebackend.onrender.com/user/delete/" + id, {
 
             method: "DELETE",
         });
@@ -76,7 +76,7 @@ const Tabel = () => {
 
     useEffect(() => {
         const userGetDetails = async () => {
-            const res = await fetch(`/getmydetails?shearchuserdata=${shearchuserdata}&page=${page}`, {
+            const res = await fetch(`https://onlinecloudstorebackend.onrender.com/getmydetails?shearchuserdata=${shearchuserdata}&page=${page}`, {
 
                 method: "GET",
                 headers: {
