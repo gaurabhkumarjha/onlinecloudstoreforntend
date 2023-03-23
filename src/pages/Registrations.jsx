@@ -31,7 +31,7 @@ const Registrations = () => {
         }
         else {
 
-            const res = await fetch("/registration", {
+            const res = await fetch("https://onlinecloudstorebackend.onrender.com/registration", {
 
                 method: "POST",
                 headers: {
