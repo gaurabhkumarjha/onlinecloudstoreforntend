@@ -21,7 +21,7 @@ const Getdetails = () => {
         
 
         const userGetDetails = async () => {
-            const res = await fetch("/details/" + id, {
+            const res = await fetch("https://onlinecloudstorebackend.onrender.com/details/" + id, {
     
                 method: "GET",
                 headers: {
