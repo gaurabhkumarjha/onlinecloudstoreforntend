@@ -56,7 +56,7 @@ const Footer = () => {
                             <h6>Our Other(s) Website</h6>
                             <ul class="footer-links">
                                 <li><a href="https://sunilkumarjha.netlify.app/" target="-blank">CA Service</a></li>
-                                <li><a href="https://gaurabhkumarjha.github.io/gsttaxcalculater.io/" target="-blank">G.T.C.</a></li>
+                                <li><a href="https://gaurabhkumarjha.github.io/gtc/" target="-blank">G.T.C.</a></li>
                             </ul>
                         </div>
                         <div class="col-xs-6 col-md-3">
